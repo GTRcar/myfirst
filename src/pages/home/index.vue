@@ -119,6 +119,7 @@ export default {
       });
     },
   },
+  // 页面滚动事件
     onPageScroll (event) {
      this.isShow = event.scrollTop > 50
     },
